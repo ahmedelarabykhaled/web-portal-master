@@ -1,0 +1,309 @@
+{
+    "name": "Plugin",
+    "link": "https://gitlab.forge.orange-labs.fr/lucy",
+    "children": [
+        {
+            "name": "RANaaS",
+            "children": [
+                {
+                    "name": "Services",
+		            "link": "https://gitlab.forge.orange-labs.fr/jfnx7678/5GaaS",
+                    "children": [
+                        {
+                            "name": "The dashbord (IHM)",
+                            "size": 2000
+                        },
+                        {
+                            "name": "Service Manager",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Service Orchestrator",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Location service",
+                            "size": 1000
+                        },
+                        {
+                            "name": "NGPoP API",
+                            "size": 2000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AtomDocs",
+            "size": 3000
+        },
+        {
+            "name": "PlayGround",
+            "size": 5000
+        },
+        {
+            "name": "LucyWall",
+            "size": 3000
+        },
+        {
+            "name": "5G Wiki",
+            "size": 3000
+        },
+        {
+            "name": "AtomStore",
+            "link": "http://10.226.226.198",
+            "children": [
+                {
+                    "name": "Auth and author",
+                    "link": "http://10.226.226.198/categories/auth",
+                    "children":[
+                        {
+                            "name": "Nothing Yet",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "API",
+                    "link": "http://10.226.226.198/categories/customization",
+                    "children":[
+                        {
+                            "name": "LPQoS",
+                            "size": 1000
+                        },
+                        {
+                            "name": "TOM",
+                            "size": 1000
+                        },
+                        {
+                            "name": "VNF API",
+                            "size": 1000
+                        }
+                    ]
+
+                },
+                {
+                    "name": "5G",
+                    "link": "http://10.226.226.198/categories/files",
+                    "children":[
+                        {
+                            "name": "ML4MQ",
+                            "size": 1000
+                        },
+                        {
+                            "name": "DockerDHCPd",
+                            "size": 1000
+                        },
+                        {
+                            "name": "DockerHostAP",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Oko",
+                            "size": 1000
+                        },
+                        {
+                            "name": "VNF API",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Integration",
+                    "link": "http://10.226.226.198/categories/integration",
+                    "children":[
+                        {
+                            "name": "Infrastructure Provider Register",
+                            "size": 1000
+                        },
+                        {
+                            "name": "VNF API",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {    
+                    "name": "Monitoring",
+                    "link":"http://10.226.226.55:8080/categories/monitoring",
+                    "children": [
+                        {
+                            "name": "Mobile Networks",
+                            "children": [
+                                {
+                                    "name": "ML4MQ",
+                                    "size": 1000
+                                },
+                                {
+                                    "name": "CPUP",
+                                    "size": 1000
+                                },
+                                {
+                                    "name": "LPQoS",
+                                    "size": 1000
+                                }
+                            ]
+                        },
+                        {
+                        "name": "Tom",
+                        "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Multimedia",
+                    "link": "http://10.226.226.198/categories/multimedia",
+                    "children":[
+                        {
+                            "name": "Nothing Yet",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Networking",
+                    "link": "http://10.226.226.198/categories/office",
+                    "children":[
+                        {
+                            "name": "ML4MQ",
+                            "size": 1000
+                        },
+                        {
+                            "name": "CPUP",
+                            "size": 1000
+                        },
+                        {
+                            "name": "DockerDHCPd",
+                            "size": 1000
+                        },
+                        {
+                            "name": "DockerHostAP",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Infrastructure Provider Register",
+                            "size": 1000
+                        },
+                        {
+                            "name": "LPQoS",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Oko",
+                            "size": 1000
+                        },
+                        {
+                            "name": "VNF API",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Organization",
+                    "link": "http://10.226.226.198/categories/organization",
+                    "children":[
+                        {
+                            "name": "Nothing Yet",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Internet of Things",
+                    "link": "http://10.226.226.198/categories/social",
+                    "children": [
+                        {
+                            "name": "DockerDHCPd",
+                            "size": 1000
+                        },
+                        {
+                            "name": "DockerHostAP",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "link": "http://10.226.226.198/categories/tools",
+                    "children": [
+                        {
+                            "name": "ML4MQ",
+                            "size": 1000
+                        },
+                        {
+                            "name": "CPUP",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Infrastructure Provider Register",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Linkspotter",
+                            "size": 1000
+                        },
+                        {
+                            "name": "LPQoS",
+                            "size": 1000
+                        },
+                        {
+                            "name": "Tom",
+                            "size": 1000
+                        }
+                    ]
+                }
+            
+            ]
+        },
+        {
+            "name": "EASI",
+	    "link": "http://10.226.226.55:8080/apps/inpr",
+            "children": [{
+                    "name": "Infrastructure Provider Register",
+                    "size": 2000
+                },
+                {
+                    "name": "UGW",
+                    "size": 1000
+                }
+            ]
+        },
+
+        {
+            "name": "ToolBoxes",
+	    "link": "http://10.226.226.55/lucy/wp/toolbox.php",
+            "children": [{
+                    "name": "5GaaS Lab",
+                    "size": 1000
+                },
+                {
+                    "name": "Python Lab",
+                    "size": 1000
+                },
+                {
+                    "name": "SDN Lab",
+                    "children": [{
+                            "name": "mininet-docker",
+                            "size": 1000
+                        },
+                        {
+                            "name": "network-geomapper",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Security Lab",
+                    "size": 1117
+                },
+                {
+                    "name": "OpenBaton Lab",
+                    "size": 1000
+                },
+                {
+                    "name": "ClearWater Lab",
+                    "size": 1000
+                }
+            ]
+        }
+    ]
+}

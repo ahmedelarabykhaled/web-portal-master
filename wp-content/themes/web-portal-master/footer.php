@@ -56,5 +56,24 @@
 
 <?php wp_footer(); ?>
 
+<script>
+	jQuery('.fixed-action-btn,.tap-target-wave').on('click',function(){
+		console.log('test');
+		if (jQuery('.tap-target-wrapper').hasClass('open')) {
+			jQuery('.tap-target-wrapper').removeClass('open');
+		}else{
+			jQuery('.tap-target-wrapper').addClass('open');
+		}
+	});
+
+	var arr = jQuery('nav a');
+	console.log(arr);
+	for (var i = arr.length - 1; i >= 0; i--) {
+		if (arr[i].host != "localhost" ) {
+			arr[i].setAttribute('target','_blank');
+		}
+	}
+
+</script>
 </body>
 </html>

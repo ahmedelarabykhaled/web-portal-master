@@ -1,0 +1,198 @@
+{
+    "name": "Plugin",
+    "link": "https://gitlab.forge.orange-labs.fr/lucy",
+    "children": [
+        {
+            "name": "AtomStore",
+            "link": "http://10.226.226.198",
+            "children": [
+                {
+                    "name": "CPUP",
+                    "link": "http://10.226.226.198/apps/cpup",
+                    "children":[
+                        {
+                            "name":"Monitoring",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "DockerDHCPd",
+                    "link": "http://10.226.226.198/apps/dhcpdvnf",
+                    "children":[
+                        {
+                            "name":"5G",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Internet of Things",
+                            "size": 1000
+                        }
+                        
+                    ]
+                },
+                {
+                    "name": "DockerHostAP",
+                    "link": "http://10.226.226.198/apps/hostapdvnf",
+                    "children":[
+                        {
+                            "name":"5G",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Internet of Things",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Infrastructure Provider Register",
+                    "link": "http://10.226.226.198/apps/inpr",
+                    "children":[
+                        {
+                            "name":"Integration",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "LPQoS",
+                    "link": "http://10.226.226.198/apps/lpqos",
+                    "children":[
+                        {
+                            "name":"API",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Monitoring",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Linkspotter",
+                    "link": "http://10.226.226.198/apps/linkspotter",
+                    "children":[
+                        {
+                            "name":"",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "ML4MQ",
+                    "link": "http://10.226.226.198/apps/ML4MQ",
+                    "children":[
+                        {
+                            "name":"5G",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Monitoring",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Oko",
+                    "link": "http://10.226.226.198/apps/oko",
+                    "children":[
+                        {
+                            "name":"5G",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Tom",
+                    "link": "http://10.226.226.198/apps/tom",
+                    "children":[
+                        {
+                            "name":"API",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Monitoring",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Tools",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "VNF API",
+                    "link": "http://10.226.226.198/apps/vnfapi",
+                    "children":[
+                        {
+                            "name":"API",
+                            "size": 1000
+                        },
+                        {
+                            "name":"5G",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Integration",
+                            "size": 1000
+                        },
+                        {
+                            "name":"Networking",
+                            "size": 1000
+                        }
+
+                    ]
+                }            
+            ]
+        }        
+    ]
+}
