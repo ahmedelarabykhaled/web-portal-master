@@ -70,6 +70,7 @@ $second_menu_items = wp_get_nav_menu_items(8);
 <?php wp_footer(); ?>
 
 <script>
+
 	jQuery('.fixed-action-btn,.tap-target-wave').on('click',function(){
 		console.log('test');
 		if (jQuery('.tap-target-wrapper').hasClass('open')) {
@@ -82,7 +83,7 @@ $second_menu_items = wp_get_nav_menu_items(8);
 	var arr = jQuery('nav a');
 	console.log(arr);
 	for (var i = arr.length - 1; i >= 0; i--) {
-		if (arr[i].host != "localhost" ) {
+		if (arr[i].host !=  location.hostname ) {
 			arr[i].setAttribute('target','_blank');
 		}
 		if (arr[i].getAttribute('href') == '#' || arr[i].getAttribute('href') == '') {
