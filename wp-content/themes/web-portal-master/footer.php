@@ -85,7 +85,7 @@ $second_menu_items = wp_get_nav_menu_items(8);
 		if (arr[i].host != "localhost" ) {
 			arr[i].setAttribute('target','_blank');
 		}
-		if (arr[i].getAttribute('href') == '#') {
+		if (arr[i].getAttribute('href') == '#' || arr[i].getAttribute('href') == '') {
 			arr[i].setAttribute('href','javascript:void(0)');
 		}
 	}
