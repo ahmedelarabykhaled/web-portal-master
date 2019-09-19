@@ -46,9 +46,9 @@
 		{
 			color: #fff;
 		}
-		circle
+		#nav-mobile
 		{
-			color: #fff !important;
+			transform: translateX(-100%);
 		}
 	</style>
 
@@ -71,8 +71,21 @@
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+					'menu_class'     => 'right hide-on-med-and-down',
+					'container'      => false,
+				) );
+
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'nav-mobile',
+					'menu_class'     => 'side-nav',
+					'container'      => false,
 				) );
 				?>
+				
+				<!--mobile navigation-->
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons" style="color:white">menu</i></a>
+				
 			</div>
 		</nav><!-- #site-navigation -->
 	</div>
